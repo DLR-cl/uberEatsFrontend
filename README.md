@@ -1,6 +1,7 @@
 # UbereatsFronEnd
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.5.
+Esta sera la rama en la cual tendremos las funcionalidades listas.
 
 ## Development server
 
