@@ -1,7 +1,6 @@
 import { Routes } from '@angular/router';
-import { CurtainComponent } from './container/curtain/curtain/curtain.component';
-
+import { InicioComponent } from './pages/inicio/inicio.component';
 
 export const routes: Routes = [
-    {path: 'index', component: CurtainComponent},
+    {path: 'inicio', component: InicioComponent},
 ];

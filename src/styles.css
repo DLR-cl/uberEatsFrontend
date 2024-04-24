@@ -3,3 +3,11 @@
     --main-color: #3FC060;
     --main-color-1: #162328;
 }
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
