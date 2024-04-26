@@ -1,0 +1,90 @@
+
+
+.product-pag {
+    max-width: 43.75rem;
+    margin: auto;
+    background-color: #d0d3d6;
+}
+
+.product-pag div {
+    margin-bottom: .2rem;
+}
+/*CSS para header (botton)*/
+
+.header-product {
+    position: relative;
+    background-color: #fff;
+}
+
+.button-back {
+    position: absolute;
+}
+
+.button-back button {
+    background-color: #fff;
+    border: none;
+    clip-path: circle(50%);
+    width: 2rem;
+    height: 2rem;
+}
+
+.button-back svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: auto;
+}
+.button-back {
+    padding: .5rem;
+}
+
+/* CSS Header img */
+.image-product img{
+    max-height: 12rem;
+}
+
+/*CSS Para la descripción */
+.description-prod h2, h3 {
+    font-size: 1.2rem;
+}
+
+.description-prod p{
+    font-size: 0.8rem;
+    color:#5a6876cd; 
+    padding: .5rem 0;
+}
+.description-prod h3 {
+    color: #5a6876;
+}
+
+.description-prod {
+    padding: 1.5rem 0;
+}
+
+.description-prod, .compra-juntos, .special-inst {
+    background-color: #fff;
+}
+
+/*CSS Instrucciones especiales*/
+
+.aditional-ins{
+    width: 17.5rem;
+    height: 6rem;
+    margin: 1rem .5rem;
+    border: none;
+    background-color: #a6aeb6;
+    border-radius: 10px;
+}
+.aditional-ins::placeholder {
+    font-size: 10px;
+    top: -12px;
+    left: 0;
+}
+
+.aditional-ins textarea{
+    resize:none;
+}
+
+textarea::-webkit-scrollbar {
+    width: 0 !important;
+
+}
