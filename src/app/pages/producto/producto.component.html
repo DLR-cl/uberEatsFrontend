@@ -22,8 +22,14 @@
   <div class="special-inst">
     <h3>Instrucciones especiales</h3>
       <textarea class="aditional-ins" type="text" placeholder="Agregar una nota (salsa adicional, sin cebolla, etc.)" id="instr-aditional"></textarea>
-      <div class="button-plus">
-        <button>hola</button>
+      <div class="buttons-incDec-container">
+        <div class="buttons-span">
+          <!-- Cambiar el color y desactivar boton minus y plus-->
+          <span class="minus" (click)="subProductCant()">-</span>
+          <span class="num">{{cant_prod}}</span>
+          <span class="plus" (click)="addProductCant()">+</span>
+        </div>
+  
     </div>
   </div>
   <div class="compra-juntos">
@@ -33,6 +39,19 @@
       <h4>Price</h4>
       <p>Descripción</p>
     </div>
+    <div class="button-plus">
+      <div class="span-button">
+        <span class="plus" (click)="addProduct(2)">+</span>
+      </div>
+    </div>
     <!-- for each product -->
   </div>
+
+  <div class="agregar-carrito-container">
+    <div class="button-add-car">
+      <button> Agregar {{cant_prod}} al Carrito • CLP{{total_price}}</button>
+    </div>
+  </div>
 </div>
+
+
