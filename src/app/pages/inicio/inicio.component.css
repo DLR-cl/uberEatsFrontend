@@ -5,25 +5,24 @@ a:link, :visited, :hover, :active{
     color: #000;
 }
 
+.container-inicio {
+    max-width: 18rem;
+    margin: auto;
+}
+
 .card {
-    max-width:43.75rem;
+    max-width:18rem;
     margin:0 auto;
     padding: 0.5rem 0 0 0;
 }
 
 .img-card {
-    height: 15rem;
+    height: 8rem;
     border-radius: 10px;
 }
 .scrollable-tabs-container {
-    max-width: 43.75rem;
+    max-width: 18rem;
     margin: 15px auto;
-
-    overflow: hidden;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-
-
 }
 
 /*.scrollable-tabs-container ul::-webkit-scrollbar {
@@ -34,9 +33,12 @@ a:link, :visited, :hover, :active{
     list-style: none;
     padding-left: 0;
     gap: 15px;
-    overflow-x: scroll;
+    overflow-x: auto;
 }
 
+.scrollable-tabs-container ul::-webkit-scrollbar {
+    width: 0;
+}
 
 .scrollable-tabs-container a {
     text-decoration: none;
@@ -55,6 +57,6 @@ a:link, :visited, :hover, :active{
 
 .tiendas-tab img {
     clip-path: circle(50%);
-    width: 5.5rem;
-    height: 5.5rem;
+    width: 3rem;
+    height: 3rem;
 }
