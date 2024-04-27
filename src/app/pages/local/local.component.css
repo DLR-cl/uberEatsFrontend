@@ -135,7 +135,6 @@
 .productos-container {
   display: flex;
   flex-wrap: wrap; 
-
 }
 
 .enlace-producto {
