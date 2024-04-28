@@ -32,18 +32,24 @@
   
     </div>
   </div>
-  <div class="compra-juntos">
-    <!--mostrar otros productos del mismo local-->
-    <div class="other-prod">
-      <h3>Hamburguesas premim</h3>
-      <h4>Price</h4>
+  <div class="container-commpra-juntos">
+    <h3>Suelen comprarse juntos</h3>
+    <a class="compra-juntos" href="/">
+      <!--mostrar otros productos del mismo local-->
+      <div class="other-prod">
+        <h3>charero charron</h3>
+        <h4>Price</h4>
       <p>Descripción</p>
     </div>
     <div class="button-plus">
       <div class="span-button">
-        <span class="plus" (click)="addProduct(2)">+</span>
+        <img class="img-extra-food" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Chacarero-Fuente-Mardoqueo.jpg/536px-Chacarero-Fuente-Mardoqueo.jpg" alt="extra-pedido">
+        <div class="span-plus">
+          <span (click)="addProduct(2)">+</span>
+        </div>
       </div>
     </div>
+  </a>
     <!-- for each product -->
   </div>
 
