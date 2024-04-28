@@ -1,12 +1,5 @@
-
-
-* {
-    padding: 0;
-    margin: 0;
-  }
-
   .wrapper {
-    width: 80%;
+    width: 100%;
     margin: auto;
     overflow:hidden;
   }
@@ -14,10 +7,10 @@
   
   footer {
     position: absolute;
+    left: 0;
     bottom: 0;
+    right: 0;
     background: white;
-    width: 350%;
-    position: fixed;
     -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
@@ -27,34 +20,37 @@
   .container_footer{
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 10px;
   }
   
   nav {
     float: center; 
+    
   }
   nav ul {
     list-style: none;
     overflow: hidden; 
+    margin-bottom: 0;
   }
   nav ul li {
     float: left;
-    margin-bottom: 10px; 
+    margin-bottom: 0px; 
     font-family: "Rubik", sans-serif;
     font-size: 16px;
   }
   nav ul li a {
     display: block; 
-    padding: 20px;
     color: black;
   }
   nav ul li:hover {
     background: #dfe4e0;
+    
   }
 
   img {
     height: 25px;
     width: 25px;
+    margin-bottom: 0;
   }
 
   .centrar-imagen {
@@ -63,4 +59,11 @@
 
 .centrar-imagen img {
     display: inline-block;
+}
+
+.pag-container {
+  max-width: 18rem;
+  min-width: none;
+  margin: auto;
+  background-color: #d0d3d6;
 }
